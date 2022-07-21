@@ -1,0 +1,75 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #785964;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h2 {
+    color: #785964;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+p {
+    color: #454545;
+    font-weight: 300;
+}
+
+.decodeMsg, .encodeMsg {
+    color: #454545;
+    font-weight: 300;
+    background-color: #000;
+    color: #ccc;
+}
+
+.encode {
+    background-color: #000;
+}
+
+section {
+    justify-content: center;
+    box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.3);
+    margin: 10em 20em 10em 20em;
+    padding: 5em;
+    width: 30%;
+}
+
+input {
+    padding:8px;
+    display:relative;
+    width:100%;
+    padding-top:16px;
+    padding-bottom:16px;
+    border:1px solid #ccc;
+    margin-top: 2px;
+}
+
+.btn {
+    border:none;
+    margin: 1em;
+    padding:8px 16px;
+    align-content: center;
+    background-color:#ccc;
+    text-align:center;
+    cursor:pointer;
+}
+.btn:hover {
+    color:#000;
+    background-color:#f49f0a;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    margin-right: 10px;
+}
