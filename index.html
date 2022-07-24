@@ -2,26 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Rede de Apoio</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://use.fontawesome.com/releases/v6.1.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet"> 
   </head>
-  <body>
+  <body onload="isLetter ()">
 
     <section>
-      <h1>Caesar Cipher</h1>
+      <h1>Como podemos te ajudar?</h1>
       <hr>
       <h2>Mensagem:</h2>
-      <input id="code" type="text" placeholder="Insira aqui sua mensagem">
+      <form>
+        <input id="code" type="text" class="message" placeholder="Insira aqui sua mensagem" title="Deve conter apenas letras, sem acentuação e sem caracteres especiais" required>
+      </form>
       
       <h2>Deslocamento:</h2>
-      <input id="offsetCode" type="number" min="0" max="35" placeholder="Insira um número de 0 a 25">
+      <input id="offsetCode" type="number" min="0" max="35" placeholder="Insira um número de 0 a 25" pattern="[0-9]{2}">
       
       <div>
           <button class="btn" id="btnEncode"><i class="fas fa-lock"></i>Cifrar</button>
           <button class="btn" id="btnDecode"><i class="fas fa-unlock"></i>Decifrar</button>
       </div>
-      <input id="codeMsg" value="">
+      <input id="codeMsg" class="result" value="">
+      <div>
+        <p id="error" class="invalid"></p>
+      </div>
     </section>
 
     <script src="index.js" type="module"></script>
