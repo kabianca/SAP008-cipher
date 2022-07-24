@@ -16,17 +16,17 @@
       <hr>
       <h2>Mensagem:</h2>
       <form>
-        <input id="code" type="text" class="message" placeholder="Insira aqui sua mensagem" title="Deve conter apenas letras, sem acentuação e sem caracteres especiais" required>
+        <input id="inputMessage" type="text" class="message" placeholder="Insira aqui sua mensagem" title="Deve conter apenas letras, sem acentuação e sem caracteres especiais" required>
       </form>
       
       <h2>Deslocamento:</h2>
-      <input id="offsetCode" type="number" min="0" max="35" placeholder="Insira um número de 0 a 25" pattern="[0-9]{2}">
+      <input id="inputOffset" type="number" min="0" max="35" placeholder="Insira um número de 0 a 25" pattern="[0-9]{2}">
       
       <div>
           <button class="btn" id="btnEncode"><i class="fas fa-lock"></i>Cifrar</button>
           <button class="btn" id="btnDecode"><i class="fas fa-unlock"></i>Decifrar</button>
       </div>
-      <input id="codeMsg" class="result" value="">
+      <input id="outputMessage" class="result" value="">
       <div>
         <p id="error" class="invalid"></p>
       </div>
