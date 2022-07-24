@@ -5,12 +5,6 @@
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
 
 ***
 
@@ -41,49 +35,24 @@ mas a cifra de César muitas vezes pode fazer parte de um sistema
 mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## 2. Resumo do projeto
+## 2. Apresentação do projeto
 
-Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
-poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
+Um grupo de mulheres residente de um bairro periférico com altos números de feminicídio e denúncias de violência doméstica constatou, ao analisar os casos policiais dos últimos 2 anos, que 60% dos casos graves de violência doméstica contra mulheres no bairro poderia ter sido evitado, por meio de medidas de proteção à vítima, tais como: fornecimento de abrigo e orientações sobre meios de proteção legal. No entanto, precisavam, para além de sensibilizar as demais mulheres do bairro sobre a importância de denunciarem o agressor, reforçar a necessidade de que mulheres em situação de risco comunicassem a rede sobre a situação na qual estivessem envolvidas. A partir de então a rede agiria como um grupo de apoio, seja providenciando um abrigo seguro e/ou prestando consultoria sobre as medidas que deveriam ser tomadas segundo a legislação vigente.
 
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
+O aplicativo de cifragem de mensagens entra neste contxto como a principal ferramenta de comunicação entre a rede e entre a rede e as vítimas, forncendo um mínimo de segurança na troca de endereços de abrigos, contatos que apoiarão nos processos de mudança de casa da vítima, de forma ágil e rápida. Deste modo, o aplicativo tanto permita cifrar um mensagem como decifrar uma mensagem cifrada anteriormente (desde que a chave de deslocamento seja conhecida).
 
-* Criar senhas seguras para email.
-* Cifrar cartões de crédito.
-* Ferramenta de mensagens internas de uma organização
-  em uma zona de conflito.
-* Mensagens secretas para alguma pessoa.
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
+A cor, laranja, segue em diálogo com a campanha da ONU Mulheres que visa sensibilizar contra a violência de gênero.
 
 ## 3. Objetivos de aprendizagem
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
+Os objetivos almejados com a realização desse App foram:
 
 ### HTML
 
 - [ ] **Uso de HTML semântico**
 
   <details><summary>Links</summary><p>
-
-  * [HTML semântico](https://curriculum.laboratoria.la/pt/topics/html/02-html5/02-semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-
-### CSS
-
-- [ ] **Uso de seletores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
-</p></details>
 
 - [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
 
@@ -100,119 +69,33 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 - [ ] **Uso de seletores de DOM**
 
-  <details><summary>Links</summary><p>
-
-  * [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/02-dom/03-1-dom-methods-selection)
-  * [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-  * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
-
 - [ ] **Manipulação de eventos de DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
-  * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
-</p></details>
 
 - [ ] **Manipulação dinâmica de DOM**
 
   <details><summary>Links</summary><p>
 
   * [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
   * [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
 </p></details>
 
 ### JavaScript
 
-- [ ] **Tipos de dados primitivos**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores Primitivos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures#valores_primitivos)
-</p></details>
-
-- [ ] **Strings (cadeias de caracteres)**
-
-  <details><summary>Links</summary><p>
-
-  * [Strings](https://curriculum.laboratoria.la/pt/topics/javascript/06-strings)
-  * [String - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
-</p></details>
-
 - [ ] **Variáveis (declaração, atribuição, escopo)**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/01-values-variables-and-types)
-  * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/02-variables)
-</p></details>
 
 - [ ] **Uso de condicionais (if-else, switch, operador ternário)**
 
-  <details><summary>Links</summary><p>
-
-  * [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
 - [ ] **Uso de laços (for, for..of, while)**
-
-  <details><summary>Links</summary><p>
-
-  * [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/02-loops)
-  * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
 
 - [ ] **Uso de funções (parâmetros, argumentos, valor de retorno)**
 
-  <details><summary>Links</summary><p>
-
-  * [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/03-functions)
-  * [Funções clássicas](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/01-classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/02-arrow)
-  * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
-
 - [ ] **Testes unitários**
 
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-</p></details>
-
 - [ ] **Módulos de ECMAScript (ES modules)**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
 
 - [ ] **Uso de linter (ESLINT)**
 
 - [ ] **Uso de identificadores descritivos (Nomenclatura | Semântica)**
-
-### Controle de Versões (Git e GitHub)
-
-- [ ] **Git: Instalação e configuração**
-
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- [ ] **GitHub: Implantação com GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
-</p></details>
 
 ### user-centricity
 
@@ -223,11 +106,3 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 - [ ] **Criar protótipos para obter feedback e iterar**
 
 - [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
-
-## 4. Considerações gerais
-
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
-  deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
-  preocupe, você aprendera durante o projeto.
-* Tempo para completar: tempo referência 2 semanas.
