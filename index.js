@@ -3,10 +3,10 @@ import cipher from './cipher.js';
 const encodeBtn = document.getElementById('btnEncode');
 const decodeBtn = document.getElementById('btnDecode');
 
-// document.getElementById("code").onkeyup = function() {isLetter()};
+// document.getElementById("inputMessage").onkeyup = function() {isLetter()};
 
 // function isLetter () {
-//   let message = document.getElementById('code');
+//   let message = document.getElementById('outputMessage');
 //   message.addEventListener('keypress', checkMessage, false);
 // }
 
@@ -21,27 +21,27 @@ const decodeBtn = document.getElementById('btnDecode');
 // }
 
 encodeBtn.addEventListener('click', () => {
-  let original = document.getElementById('code').value.toUpperCase();
-  let shift = parseInt(document.getElementById('offsetCode').value);
+  let message = document.getElementById('inputMessage').value.toUpperCase();
+  let offset = parseInt(document.getElementById('inputOffset').value);
     // try {
-    //   if(original == "") throw "O campo de mensagem está vazio";
-    //   shift = Number(shift);
-    //   if(isNaN(shift)) throw "O deslocamento precisa ser um número";
-    //   if(shift < 0) throw "O deslocamente não pode ser menor que 0";
+    //   if(message == "") throw "O campo de mensagem está vazio";
+    //   inputOffset = Number(inputOffset);
+    //   if(isNaN(inputOffset)) throw "O deslocamento precisa ser um número";
+    //   if(inputOffset < 0) throw "O deslocamente não pode ser menor que 0";
     // }
     // catch(err) {
     //   document.getElementById('error').innerHTML = "Erro: " + err + ".";
     // }
     // finally {
-  let result = cipher.encode(original, shift);
-  document.getElementById('codeMsg').value = result;
+  let result = cipher.encode(offset, message);
+  document.getElementById('outputMessage').value = result;
     // }
   
 });
 
 decodeBtn.addEventListener('click', () => {
-  let encryptMsg = document.getElementById('code').value.toUpperCase();
-  let shiftDecode = parseInt(document.getElementById('offsetCode').value);
-  let resultdecode = cipher.decode(encryptMsg, shiftDecode);
-  document.getElementById('codeMsg').value = resultdecode;
+  let messageDecode = document.getElementById('inputMessage').value.toUpperCase();
+  let offsetDecode = parseInt(document.getElementById('inputOffset').value);
+  let resultDecode = cipher.decode(offsetDecode, messageDecode);
+  document.getElementById('outputMessage').value = resultDecode;
 });
