@@ -52,17 +52,20 @@ O aplicativo foi idealizado de modo a atender essas premissas básicas, ou seja:
 
 A cor laranja segue em diálogo com a cor adotada pelo 5º objetivo de Desenvolvimento Sustentável, Igualdade de Gênero, entre os 17 pautados pela ONU para que o Brasil concretize sua Agenda 2030. Desde então a cor laranja tem sido adotada pela ONU Mulheres como meio de demarcar a presença da pauta nos espaços de governança e sensibilizar a população em geral sobre o impacto que a violência de gênero tem causado.
 
-## 3. Objetivos de aprendizagem priorizados:
+## 3. Objetivos de aprendizagem
 
 Os objetivos almejados com a realização desse App foram:
 
-### HTML
+#### Aprofundar e consolidar
+---
+
+##### HTML
 
 - [ ] **Uso de HTML semântico**
 
 - [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
 
-### Web APIs
+##### Web APIs
 
 - [ ] **Uso de seletores de DOM**
 
@@ -70,7 +73,7 @@ Os objetivos almejados com a realização desse App foram:
 
 - [ ] **Manipulação dinâmica de DOM**
 
-### JavaScript
+##### JavaScript
 
 - [ ] **Variáveis (declaração, atribuição, escopo)**
 
@@ -80,7 +83,8 @@ Os objetivos almejados com a realização desse App foram:
 
 - [ ] **Uso de funções (parâmetros, argumentos, valor de retorno)**
 
-#### Primeiro Contato:
+##### Primeiro Contato 🌟
+---
 
 - [ ] **Testes unitários**
 
@@ -90,11 +94,11 @@ Os objetivos almejados com a realização desse App foram:
 
 - [ ] **Uso de identificadores descritivos (Nomenclatura | Semântica)**
 
-### user-centricity
+##### user-centricity
 
 - [ ] **Desenhar a aplicação pensando e entendendo a usuária**
 
-### product-design
+##### product-design
 
 - [ ] **Criar protótipos para obter feedback e iterar**
 
