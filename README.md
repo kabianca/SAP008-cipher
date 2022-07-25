@@ -41,7 +41,7 @@ Um grupo de mulheres residente de um bairro periférico com altos números de fe
 
 O aplicativo de cifragem de mensagens entra neste contxto como a principal ferramenta de comunicação entre a rede e entre a rede e as vítimas, forncendo um mínimo de segurança na troca de endereços de abrigos, contatos que apoiarão nos processos de mudança de casa da vítima, de forma ágil e rápida. Deste modo, o aplicativo tanto permita cifrar um mensagem como decifrar uma mensagem codificada anteriormente (desde que a chave de deslocamento seja conhecida). Isto posto, o aplicativo foi idealizado de modo a atender essas premissas básicas, ou seja: um campo para inserir a mensagem, a ser codificada ou decodificada, um campo de input para inserir o deslocamento das letras, um campo para exibir a mensagem codificada ou decodificada e dois botões, um para cifrar e outro para decifrar.
 
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
+![protótipo](https://github.com/kabianca/SAP008-cipher/blob/main/prototipo.png)
 
 A cor, laranja, segue em diálogo com a cor adotada pelo 5º objetivo de Desenvolvimento Sustentável, Igualdade de Gênero, entre os 17 pautados pela ONU a fim de que possamos atingir a Agenda 2030 no Brasil. Ainda, a cor laranja tem sido adotada pela ONU Mulheres como meio de demarcar a presença da pauta nos espaços de governança e sensibilizar a população em geral sobre o impacto que a violência de gênero tem causado.
 
