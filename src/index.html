@@ -16,11 +16,11 @@
       <hr>
       <h2>Mensagem:</h2>
       <form>
-        <input id="inputMessage" type="text" class="message" placeholder="Insira aqui sua mensagem" title="Deve conter apenas letras, sem acentuação e sem caracteres especiais" required>
+        <input id="inputMessage" type="text" class="message" placeholder="Insira aqui sua mensagem" title="Deve conter apenas letras e espaço" required>
       </form>
       
       <h2>Deslocamento:</h2>
-      <input id="inputOffset" type="number" min="0" max="35" placeholder="Insira um número de 0 a 25" pattern="[0-9]{2}">
+      <input id="inputOffset" type="number" min="0" max="35" placeholder="Insira um número de 0 a 25" pattern="[0-9]{1,5}">
       
       <div>
           <button class="btn" id="btnEncode"><i class="fas fa-lock"></i>Cifrar</button>

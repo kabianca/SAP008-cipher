@@ -10,12 +10,13 @@ const cipher = {
           let newCodeLetter = (codeLetter - 65 + inputOffset) % 26 + 65
           codeResult += String.fromCharCode(newCodeLetter);
         }
-        // else {
-        //   codeResult += message[i];
-        // }
-        // else if (codeLetter == 32) {
-        //   codeResult += message[i];
-        // }
+        else if (codeLetter > 96 && codeLetter < 123) {
+          let newCodeLetter = (codeLetter - 97 + inputOffset) % 26 + 97
+          codeResult += String.fromCharCode(newCodeLetter);
+        }
+        else if (codeLetter > 31 && codeLetter < 34 || codeLetter == 64) {
+          codeResult += message[i];
+        }
     }
     return codeResult;
   },
@@ -30,16 +31,13 @@ const cipher = {
           let newLetterDecode = (((decodeLetter - 90 - inputOffset) % 26) + 90)
           decodeResult += String.fromCharCode(newLetterDecode);
         }
-        // else {
-        //   decodeResult += message[i];
-        // }
-        // else if (decodeLetter < 65 && decodeLetter != 32) {
-        //   let newLetterDecode = (((decodeLetter - 90 - inputOffset) % 26) + 90) + 26
-        //   decodeResult += String.fromCharCode(newLetterDecode);
-        // }
-        // else if (decodeLetter == 32) {
-        //   decodeResult += message[i];
-        // }
+        else if (decodeLetter > 96 && decodeLetter < 123) {
+          let newLetterDecode = (((decodeLetter - 122 - inputOffset) % 26) + 122)
+          decodeResult += String.fromCharCode(newLetterDecode);
+        }
+        else if (decodeLetter > 31 && decodeLetter < 34 || decodeLetter == 64) {
+          decodeResult += message[i];
+        }
     }
     return decodeResult;
   }
