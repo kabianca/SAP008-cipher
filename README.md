@@ -99,7 +99,7 @@ Os objetivos almejados com a realização desse App foram:
 
 - [ ] Uso de linter (ESLINT)
 
-- [X] Uso de identificadores descritivos (Nomenclatura | Semântica)
+- [x] Uso de identificadores descritivos (Nomenclatura | Semântica)
 
 **user-centricity**
 
