@@ -42,7 +42,12 @@ A Associação de Mulheres da Ladeira Argentina é um grupo de mulheres resident
 
 No entanto, para além de sensibilizar as mulheres do bairro sobre a importância de denunciarem o agressor, o grupo decidiu construir uma ferramenta para codificar mensagens, onde mulheres em situação de risco pudessem se comunicar com a rede de forma segura.O público alvo desse aplicativo são mulheres em situação de vulnerabilidade social e econômica, residentes da comunidade Ladeira Argentina. Tem como objetivo cifrar/decifrar mensagens de texto. Ao codificar as mensagens trocadas entre elos da rede e entre a rede e as vítimas forneceria segurança na troca de endereços de abrigos e contatos que apoiarão nos processos de mudança de casa da vítima, de forma ágil e rápida. A partir dessa comunicação a rede assumiria o papel de grupo de apoio, ao providenciar abrigo seguro e/ou prestar consultoria sobre as medidas que deveriam ser tomadas segundo a legislação vigente. Além de fornecer um espaço contínuo de diálogo e formação sobre casos de violência doméstica na vizinhança.
 
-O aplicativo foi idealizado de modo a atender essas premissas básicas, ou seja: **a)** um campo para inserir a mensagem, a ser codificada ou decodificada; **b)** um campo para inserir o deslocamento das letras; **c)** um campo para exibir a mensagem codificada ou decodificada e; dois botões, **d)** cifrar e **e)** decifrar.
+O aplicativo foi idealizado de modo a atender essas premissas básicas, ou seja: 
+- **a)** um campo para inserir a mensagem, a ser codificada ou decodificada; 
+- **b)** um campo para inserir o deslocamento das letras; 
+- **c)** um campo para exibir a mensagem codificada ou decodificada e; dois botões, 
+- **d)** cifrar e, 
+- **e)** decifrar.
 
 ![protótipo](https://raw.githubusercontent.com/kabianca/SAP008-cipher/main/prototipo.png)
 
@@ -52,50 +57,54 @@ A cor laranja segue em diálogo com a cor adotada pelo 5º objetivo de Desenvolv
 
 Os objetivos almejados com a realização desse App foram:
 
-#### Aprofundar e consolidar
+### **Aprofundar e consolidar** 👩🏾‍💻
 ---
 
-##### HTML
+**HTML**
 
-- [ ] **Uso de HTML semântico**
+- [ ] Uso de HTML semântico
 
-- [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
+- [ ] Empregar o modelo de caixa (box model): borda, margem, preenchimento
 
-##### Web APIs
+**Web APIs**
 
-- [ ] **Uso de seletores de DOM**
+- [ ] Uso de seletores de DOM
 
-- [ ] **Manipulação de eventos de DOM**
+- [ ] Manipulação de eventos de DOM
 
-- [ ] **Manipulação dinâmica de DOM**
+- [ ] Manipulação dinâmica de DOM
 
-##### JavaScript
+**JavaScript**
 
-- [ ] **Variáveis (declaração, atribuição, escopo)**
+- [ ] Variáveis (declaração, atribuição, escopo)
 
-- [ ] **Uso de condicionais (if-else, switch, operador ternário)**
+- [ ] Uso de condicionais (if-else, switch, operador ternário)
 
-- [ ] **Uso de laços (for, for..of, while)**
+- [ ] Uso de laços (for, for..of, while)
 
-- [ ] **Uso de funções (parâmetros, argumentos, valor de retorno)**
-
-##### Primeiro Contato 🌟
+### **Primeiro Contato** ✍🏾
 ---
 
-- [ ] **Testes unitários**
+**JavaScript**
+- [ ] Uso de funções (parâmetros, argumentos, valor de retorno)
 
-- [ ] **Módulos de ECMAScript (ES modules)**
+- [ ] Testes unitários
 
-- [ ] **Uso de linter (ESLINT)**
+- [ ] Módulos de ECMAScript (ES modules)
 
-- [ ] **Uso de identificadores descritivos (Nomenclatura | Semântica)**
+- [ ] Uso de linter (ESLINT)
 
-##### user-centricity
+- [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
 
-- [ ] **Desenhar a aplicação pensando e entendendo a usuária**
+**user-centricity**
 
-##### product-design
+- [ ] Desenhar a aplicação pensando e entendendo a usuária
 
-- [ ] **Criar protótipos para obter feedback e iterar**
+**product-design**
 
-- [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
+- [ ] Criar protótipos para obter feedback e iterar
+
+- [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+
+Créditos:
+Imagem de Fundo adaptada de <a href="https://www.freepik.com/vectors/gender-violence">Gender violence vector created by freepik - www.freepik.com</a>
