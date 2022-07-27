@@ -77,7 +77,7 @@ Os objetivos almejados com a realização desse App foram:
 
 - [x] Manipulação de eventos de DOM
 
-- [ ] Manipulação dinâmica de DOM
+- [x] Manipulação dinâmica de DOM
 
 **JavaScript**
 
@@ -97,7 +97,7 @@ Os objetivos almejados com a realização desse App foram:
 
 - [x] Módulos de ECMAScript (ES modules)
 
-- [ ] Uso de linter (ESLINT)
+- [x] Uso de linter (ESLINT)
 
 - [x] Uso de identificadores descritivos (Nomenclatura | Semântica)
 

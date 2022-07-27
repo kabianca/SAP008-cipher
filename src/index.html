@@ -15,18 +15,20 @@
       <h1>Como podemos te ajudar?</h1>
       <hr>
       <h2>Mensagem:</h2>
-      <form>
-        <input id="inputMessage" type="text" class="message" placeholder="Insira aqui sua mensagem" title="Deve conter apenas letras e espaço">
-      </form>
+      
+      <input id="inputMessage" type="text" class="message" placeholder="Insira aqui sua mensagem" title="Deve conter apenas letras e espaço">
       
       <h2>Deslocamento:</h2>
+      
       <input id="inputOffset" type="number" min="0" max="25" placeholder="Insira um número de 0 a 25">
       
       <div>
           <button class="btn" id="btnEncode"><i class="fas fa-lock"></i>Cifrar</button>
           <button class="btn" id="btnDecode"><i class="fas fa-unlock"></i>Decifrar</button>
       </div>
-      <input id="outputMessage" class="result" value="">
+      
+      <input id="outputMessage" class="result" value="" readonly>
+      
       <p id="error"></p>
     </section>
 
