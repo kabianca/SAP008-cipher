@@ -3,10 +3,10 @@ const cipher = {
   encode:
   function (inputOffset, message) {
     if (typeof inputOffset != 'number') {
-      throw TypeError(`Digite um número no lugar de: ${typeof inputOffset}`)
+      throw new TypeError()
     }
     if (typeof message != 'string') {
-      throw TypeError(`Digite uma mensagem de texto no lugar de: ${typeof message}`)
+      throw TypeError()
     }
 
     let codeResult = '';
@@ -31,10 +31,10 @@ const cipher = {
   decode:
   function (inputOffset, message) {
     if (typeof inputOffset != 'number') {
-      throw TypeError(`Digite um número no lugar de: ${typeof inputOffset}`)
+      throw TypeError()
     }
     if (typeof message != 'string') {
-      throw TypeError(`Digite uma mensagem de texto no lugar de: ${typeof message}`)
+      throw TypeError()
     }
 
     let decodeResult = '';
